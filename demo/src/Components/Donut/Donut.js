@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classes from './Donut.css';
 import GoogleChart from 'react-google-charts';
 const Donut =()=>{
     const DonutChart = {
@@ -37,7 +38,7 @@ const Donut =()=>{
   },
 }
     return (
-              <div class="googlechart">
+              <div class="googledonutchart">
                 <GoogleChart {...DonutChart} />
               </div>
             )

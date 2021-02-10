@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classes from './AreaChart.css';
 import GoogleChart from 'react-google-charts';
 const AreaChart =()=>{
     const areaChart = {
@@ -45,7 +46,7 @@ const AreaChart =()=>{
         },
       };
     return (
-              <div class="googlechart">
+              <div class="googleareachart">
                 <GoogleChart {...areaChart} />
               </div>
             )
