@@ -8,6 +8,13 @@
   color:rgb(68, 68, 68);  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
+.notif{
+  color: rgb(68, 68, 68); ;
+  border: none;
+  cursor: pointer;
+  background-color: hsla(0,0%,100%,0);
+  font-size: large;
+}
 .arrow {
   border: solid rgb(68, 68, 68);  ;
   border-width: 0 3px 3px 0;
@@ -18,12 +25,8 @@
   margin-left: 1vw;
 }
 .profile-pic{
-    max-width: 4em;
-    margin-right: 3em;
+    max-width: 2.5em;
     border-radius: 50%;
-    float: right;
-    margin-top: 0.5em;
-    margin-right: 2em;
 }
 .dropbtn {
     color: rgb(68, 68, 68); ;
