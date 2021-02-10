@@ -1,13 +1,18 @@
-.chart{
-    border-radius: 20px;
-    -webkit-box-shadow: rgba(0,0,0,0.25) 0px 0 10px;
-    -moz-box-shadow: rgba(0,0,0,0.25) 0 0 10px;
-    box-shadow: rgba(0,0,0,0.25) 0 0 10px;
+body{
+    background-color: rgb(240, 240, 240);
 }
 .chartsdiv{
     margin-left: 25vw;
     margin-top: 1vw;
 }
+.chart{
+    border-radius: 20px;
+    -webkit-box-shadow: rgba(0,0,0,0.25) 0px 0 10px;
+    -moz-box-shadow: rgba(0,0,0,0.25) 0 0 10px;
+    box-shadow: rgba(0,0,0,0.25) 0 0 10px;
+    background-color: #fff;
+}
+
 .chartsdiv h3{
     color: rgb(76, 76, 167);
 }
